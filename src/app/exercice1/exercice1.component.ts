@@ -11,4 +11,12 @@ export class Exercice1Component implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  MajCompteur(text: string) {
+    if (text == '+') {
+      this.result++;
+    } else {
+      this.result--;
+    }
+  }
 }
